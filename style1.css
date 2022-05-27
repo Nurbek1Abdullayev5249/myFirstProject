@@ -1,0 +1,97 @@
+.navbar{
+    display: flex;
+    text-align: center;
+    font-size: 36px;
+    font-variant:small-caps;
+    /* border-left-style: ridge; */
+    /* border-radius: 50%; */
+    /* border-right-style: dotted; */
+    font-family: verdana;
+    text-shadow: 10px -8px 12px pink;
+    /* border-bottom-style: triangle; */
+    /* border-top-style: solid; */
+    max-zoom: 1000px;
+ flex-flow: row wrap;
+ 
+ /* background-color: limegreen; */
+justify-content: space-between;
+
+}
+nav ul{
+    font-style: 22px;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s all;
+    margin:5px 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.btn button{
+    font-size: 36px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background:linear-gradient(rgb(179, 97, 97),pink,rgb(100, 100, 187));
+    transition: .5s;
+    cursor: pointer;
+    transform: scale3d(45px);
+    transform-style: preserve-3d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-variant: inherit;
+margin:5px 1px;
+}
+.btn button:hover{
+    background-image: radial-gradient(seashell,#fafafa, #333);
+    color: rgb(46, 196, 53);
+    filter: brightness(30%);
+    transform: rotateY(45deg);
+    transform: matrix3d(45deg);
+    perspective: 100    0px;
+}
+nav ul li a:hover{
+    background-color: rgb(162, 91, 103);
+    color: seashell;
+}
+
+header{
+    background-image: url(./1.\ Черный\ кот\ с\ рыбкой.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.height1{
+height: 1240px;
+}
+.mask{
+    background-color: rgba(117, 75, 75, 0.544);
+}
+cite{
+    font-size: 30px;
+    word-spacing: wrap;
+    text-transform:capitalize;
+}
+kbd{
+    text-transform: uppercase;
+    font-size: 46px;
+}
+center{
+    /* word-wrap:nowrap;
+    overflow-x: hidden;
+    font-variant-ligatures:additional-ligatures ;
+    word-spacing:10px;
+    white-space:10px;
+    widows: inherit;
+vertical-align: bottom;
+list-style-type: nowrap;   */
+/* enable-background: new;
+order: -10;  
+     */
+}

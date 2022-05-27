@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ column-count: auto;
+ mask-type: luminance;
+ mask-clip: no-clip;
+ mask:get=1.;
+ mask-border:none 3 auto 2 round;  
+ mask-border-source: ;
+ mask-border-width: auto;
+ mask-border-outset: 2;
+ mask-border-repeat: round;
+}
+
+.container{
+    /* overflow-y: hidden; */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    font-variant-position: super;
+    font-variant:all-petite-caps;
+    font-variant-caps:small-caps;
+    font-variant-ligatures: contextual;
+page-break-inside: auto;
+perspective: 1000px;
+
+
+}
+iframe{
+    margin-left: 300px;
+    overflow:scroll;
+    font-variant-position: normal;
+    font-variant:ordinal;
+    list-style-image: -moz-radial-gradient();
+}
+fieldset{
+    width: 100%;
+    height: 100px;
+    max-zoom: 100%;
+    user-zoom: fixed;
+    zoom: 1fr;
+    mix-blend-mode: 41;
+    margin-block-start: 69;
+    hyphens: auto;
+    appearance: 84;
+    font-kerning: 33;
+    /* for chrome */
+    text-emphasis:sesame dodgerblue;
+text-emphasis-style:sesame ;
+text-emphasis-color:dodgerblue;
+text-emphasis-position: under;
+empty-cells: show;
+margin-trim: all;
+scroll-margin-block-end: 2;
+border-end-start-radius: 1;
+break-inside: avoid-page;
+border-right-style:dashed;
+border-left-style: dotted;
+float: right;
+gap: 10px 15px;
+display: grid;
+/* orphans: ; */
+border-bottom-style:ridge;
+border-top-style: initial;
+caret-color:auto pink;
+accent-color: auto red;
+aspect-ratio: auto;
+scrollbar-arrow-color: aqua;
+text-decoration-color: aqua;
+viewport-fit: cover;
+glyph-orientation-vertical: 45deg;
+font-variant: ordinal;
+font-variant-ligatures: contextual;
+range: infinite 2;
+negative: red;
+nav-right: root;
+nav-index: calc(1,15deg);
+touch-action: pinch-zoom;
+text-rendering: optimizeSpeed;
+text-indent: 1 hanging  2;
+text-anchor:unset;
+mask-type:alpha;
+max-zoom: 100px;
+overflow-clip-margin: 0, 100;
+
+}
